@@ -1,0 +1,220 @@
+body{
+    
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-size: 25px;text-align:right; margin: 0;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #1F2F37;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    width: 100;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the link color to #aaa on hover */
+  li a:hover {
+
+    color: #aaa;
+ 
+  }
+
+  li a.active {
+    background-color: black;
+    color: white;
+  }
+  
+  #customers td {
+    
+    width: 100%;
+    padding: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #1F2F37;
+    color: white;
+  }
+  #details td {
+    
+    width: 500px;
+    padding: 60px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: #1F2F37;
+    
+  }
+  input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;}
+  input[type=submit], select{
+    
+  border: 1;
+  color:#1F2F37;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #1F2F37;
+    color: white;
+  }  
+    
+    .header {
+      padding: 34px;
+      font-size: 20pt;
+      text-align: center;
+      background: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      box-sizing: border-box;
+      
+  }
+  
+  .leftcolumn {
+      flex: 35%;
+      background: url(pict12.jpg);
+      color:#1F2F37;
+      
+      
+  }
+  
+  .rightcolumn {
+      flex: 65%;
+      
+      color: #1F2F37;
+    
+  }
+  
+ 
+  
+  /* Add a card effect for articles */
+  .card {
+       background-color: white;
+       padding: 30px;
+       text-align: left;
+       
+  }
+  
+  .row {
+      display: flex;
+  }
+  
+  /* Footer */
+  .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+     /* margin-top: 20px;*/
+      background: url(pict12.jpg);
+  }
+  .leftcolumn2 {
+    flex: 70%;
+}
+
+  .rightcolumn2 {
+    flex: 30%;
+    background-image: url(pict12.jpg);
+    word-break: keep-all;
+    text-align: left;
+}
+
+/* Add a card effect for articles */
+.card2 {
+     background-color: white;
+     padding: 40px;
+     font-size: 16pt;
+     
+        
+}
+
+.row2 {
+    display: flex;
+    padding: 40px;
+    
+}
+.header2 {
+    padding: px;
+    font-size: 16pt;
+    text-align: center;
+    background: transparent;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .mySlides {display:none;}
+  #customers td {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1F2F37;
+    color: white;
+  }
+  
+  
+  
+  .leftcolumn3 {
+    flex: 50%;
+}
+
+.rightcolumn3 {
+    flex: 50%;
+  padding-left: 5px;
+}
+
+
+/* Add a card effect for articles */
+.card3 {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+.row3 {
+    display: flex;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 0pt;
+}  

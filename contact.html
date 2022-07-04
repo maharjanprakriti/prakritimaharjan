@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    
+    
+    .hero-image {
+      background-image: url(pict3.jpg);
+      height: 300px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    .hero-text {
+      text-align: left;
+      position: absolute;
+      top: 20%;
+      left: 12%;
+      display: block;
+      color: black;
+    }
+    </style>
+    
+</head>
+    <body background="pict12.jpg" style="height:900px">
+        <ul>
+              <li><a class="active" href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li style="float:left"><a href="#○ ㅅ ○"><b>( ○ ㅅ ○ )</b></a></li>
+            </ul>
+            <div class="hero-image">
+              <div class="hero-text">
+                <table id="customers">
+                  <tr>
+                    
+                    <td>  Contact  </td>
+                    
+                  </tr>
+                </table>
+                <br>
+                <table id="details" border="0" >
+                  <tr>
+                    <td>
+                        <form name="messageForm" onsubmit="validateForm()">
+                            <p>First name: <input type="text" name="firstname"></p>
+                            <p>Last name: <input type="text" name="lastname"></p>
+                            <p>Email: <input type="text" name="email"></p>
+                            <p>Gender: <input type="radio" name="gender" value="male" checked> Male 
+                            <input type="radio" name="gender" value="female"> Female </p>
+                            <p>Message: <br><br><textarea name="message" rows="10" cols="50" placeholder="Enter Message"></textarea></p>
+                            <p><input type="submit" value="Send"></p>
+                          </form>
+                    </td>
+                  </tr>
+                </table>
+                  
+              </div>
+            </div>
+              <div style="padding-right:  5%; padding-top: 5%" >
+              <img src="dfd.gif" alt="niu" height="300" > 
+            
+              </p>
+              </div>
+              <script>
+              function validateForm() {
+                var fname = document.forms["messageForm"]["firstname"].value;
+                var lname = document.forms["messageForm"]["lastname"].value;
+                var gender = document.forms["messageForm"]["gender"].value;
+                var message = document.forms["messageForm"]["message"].value;
+        
+                if (fname == "" || lname == "" || message == ""){
+                  alert("Empty fields found. Please fill the form.");
+                }
+                else {
+                  alert("Thank you for the feedback.");
+                }
+              }
+            </script>      
+      
+        
+  </body>
+
+</body>
+</html>

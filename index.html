@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body style="background-image: url(done3.jpg); background-repeat: no-repeat; background-size: cover;">
+      <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li style="float:left"><a href="index.html"><b>( ○ ㅅ ○ )</b></a></li>
+          </ul>
+          
+          <div class="hero-image">
+            <div class="hero-text">
+              <h1 style="font-size:50px"></h1>
+              <div class="div2" style="font-size:40pt;">WELCOME</div>
+              <h6 style="color:blanchedalmond">A Student's Webpage</h6><br>
+              
+              </div>
+              <div class="w3-display-container mySlides" style="max-width:300px; padding-left:40%; padding-top:25%;">
+                <img src="style_girl.jpg" style="width:100%">
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
+                  Research
+                </div>
+              </div>
+              <div class="w3-display-container mySlides" style="max-width:400px; padding-left:35%; padding-top:25%;">
+                <img src="workbench.jpg" style="width:100%">
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
+                  Blogs
+                </div>
+              </div>
+              <div class="w3-display-container mySlides" style="max-width:200px; padding-left:42%; padding-top:25%;">
+                <img src="rep.gif" style="width:100%">
+                <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
+                  About
+                </div>
+              </div>
+            </div>
+            <div class="w3-display-container mySlides" style="max-width:300px; padding-left:40%; padding-top:25%;">
+              <img src="dfd.gif" style="width:100%">
+              <div class="w3-display-middle w3-large w3-container w3-padding-16 ">
+                Contact
+              </div>
+            </div>
+              <script>
+              var myIndex = 0;
+              carousel();
+              
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+              }
+              </script>
+            </div>
+            
+
+      
+</body>
+</html>
